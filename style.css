@@ -112,7 +112,7 @@ section .title::after{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    /* color: #fff; */
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -129,7 +129,7 @@ section .title::after{
     font-size: 27px;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 70px;
     font-weight: 600;
     margin-left: -3px;
 }
