@@ -79,12 +79,12 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    /* color: #fff; */
+    color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    /* color: crimson; */
+    color: crimson;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -96,7 +96,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    /* color: #fff; */
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -112,9 +112,9 @@ section .title::after{
 
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60") no-repeat center;
     height: 100vh;
-    /* color: #fff; */
+    color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -160,9 +160,61 @@ section .title::after{
     background: none;
 }
 
+.about .title::after{
+    content: "who i am";
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+#calender{
+    margin: 20px;
+    background-color: #333;
+    text-align: center;
+    color: white;
+}
+#calender h1{
+    padding: 15px;
+}
 .Projects, .teams{
     color:#fff;
     background: #111;
+   
 }
 .Projects .title::before,
 .teams .title::before{
