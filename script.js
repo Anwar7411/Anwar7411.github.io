@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [ "Developer", "Blogger", "Designer", "Freelancer"],
+        strings: [ "Full-Stack Web Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Developer", "Blogger", "Designer", "Freelancer"],
+        strings: ["Full-Stack Web Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -71,3 +71,9 @@ $(document).ready(function(){
         }
     });
 });
+document.getElementById("pr1").addEventListener("click",()=>{window.open("https://wondrous-marigold-ae1bc8.netlify.app/home.html", '_blank')})
+document.getElementById("pr2").addEventListener("click",()=>{window.open("https://anwarbly7411-gmail-com-makes-great-sites-bafa1.netlify.app/Login", '_blank')})
+document.getElementById("pr3").addEventListener("click",()=>{window.open("https://benevolent-conkies-f99195.netlify.app/", '_blank')})
+document.getElementById("pr11").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/direful-order-8525", '_blank')})
+document.getElementById("pr22").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/-dangerous-powder-9842/tree/main/rct101", '_blank')})
+document.getElementById("pr33").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/fun-trees-7619", '_blank')})
