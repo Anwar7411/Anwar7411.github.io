@@ -71,7 +71,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    /* background: crimson; */
+    background: #fc523e;
 }
 .navbar .max-width{
     display: flex;
@@ -84,7 +85,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: #fc523e;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -213,6 +214,7 @@ section .title::after{
 }
 .eachCard{
     width: 90%;
+    margin-top: 40px;
 }
 .Projects, .teams{
     color:#fff;
@@ -222,6 +224,9 @@ section .title::after{
 .Projects .title::before,
 .teams .title::before{
     background: #fff;
+}
+.github{
+    width:60px;
 }
 .Projects .title::after,
 .teams .title::after{
@@ -239,15 +244,16 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .Projects .serv-content .card:hover{
-    background: crimson;
+    background: #fc523e;
 }
 .projectimg{
     width: 450px;
     height: 350px;
 }
 .serv-content img:hover{
-    background: crimson;
+    background: black;
     cursor: pointer;
+   
     
 }
 .serv-content img{
@@ -256,8 +262,6 @@ section .title::after{
 .card{
     display: flex;
     width: 1200px;
-    justify-content: space-between;
-    
     gap: 60px;
 }
 .card p{
@@ -268,7 +272,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .Projects .serv-content .card:hover .box{
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 .Projects .serv-content .card i{
     font-size: 50px;
@@ -536,6 +540,28 @@ section .title::after{
         width: 100%;
         margin-bottom: 35px;
     }
+    #card{
+        display: block;
+        width: 600px;
+        margin: auto;
+    }
+    .card p{
+        font-size: 16px;
+    }
+    .projectimg{
+        width: 320px;
+        height: 240px;
+        margin: auto;
+    }
+    .github{
+        width:35px
+    }
+    #heading{
+        font-size: 25px;
+        font-weight: 500;
+    margin: 10px 0 7px 0;
+    }
+    
 }
 
 @media (max-width: 690px) {
@@ -584,5 +610,33 @@ section .title::after{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    #card{
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+    .card{
+        display: block;
+    }
+    .card p{
+        font-size: 12px;
+    }
+    .projectimg{
+        width: 210px;
+        height: 200px;
+        margin: auto;
+    }
+    .github{
+        width:30px;
+        background: #111;
+    }
+    #heading{
+        font-size: 20px;
+        font-weight: 500;
+    margin: 10px 0 7px 0;
+    }
+    .Projects .serv-content .card .github:hover{
+        background: #fc523e;
     }
 }

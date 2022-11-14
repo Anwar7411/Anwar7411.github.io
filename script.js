@@ -77,3 +77,4 @@ document.getElementById("pr3").addEventListener("click",()=>{window.open("https:
 document.getElementById("pr11").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/direful-order-8525", '_blank')})
 document.getElementById("pr22").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/-dangerous-powder-9842/tree/main/rct101", '_blank')})
 document.getElementById("pr33").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/fun-trees-7619", '_blank')})
+document.getElementById("emailsend").addEventListener("click",()=>{window.location.href=("mailto:bashaa7411@gmail.com")})
