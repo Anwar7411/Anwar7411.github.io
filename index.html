@@ -27,7 +27,7 @@
               <li><a href="#home" class="menu-btn">Home</a></li>
               <li><a href="#about" class="menu-btn">About</a></li>
               <li><a href="#Projects" class="menu-btn">Projects</a></li>
-              <li><a href="#skills" class="menu-btn">Skills</a></li>
+              <li><a href="#clients" class="menu-btn">Skills</a></li>
               <li><a href="#contact" class="menu-btn">Contact</a></li>
           </ul>
           <div class="menu-btn">
@@ -135,67 +135,120 @@
     </div>
 </div>
 
-<section class="skills" id="skills">
-    <div class="max-width">
-        <h2 class="title">My skills</h2>
-        <div class="skills-content">
-            <div class="column left">
-                <div class="text">My creative skills & experiences.</div>
-                <a href="#">Read more</a>
-            </div>
-            <div class="column right">
-                <div class="bars">
-                    <div class="info">
-                        <span>HTML</span>
-                    </div>
-                    <div class="line html"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>CSS</span>
-                    </div>
-                    <div class="line css"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>JavaScript</span>
-                    </div>
-                    <div class="line js"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>React</span>
-                    </div>
-                    <div class="line React"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="line MongoDB"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>ExpressJs</span>
-                    </div>
-                    <div class="line ExpressJs"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>NodeJs</span>
-                    </div>
-                    <div class="line NodeJs"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span>GitHub</span>
-                    </div>
-                    <div class="line GitHub"></div>
-                </div>
-            </div>
+
+
+
+<section class="client" id="clients">
+    <div class="row">
+      <h2 class="title" id="title">Skills</h2>
+
+      <!-- first row -->
+      <div class="client__logos">
+        <div class="changes" id="js">
+          <img
+            src="./images//js.svg"
+            id="js_img"
+            class="client__logo"
+            alt="Company 1"
+          />
+          <p>JavaScript</p>
         </div>
+        <div class="changes">
+          <img
+            src="./images/html.svg"
+            class="client__logo"
+            alt="Company 1"
+          />
+          <p>HTML</p>
+        </div>
+        <div class="changes">
+          <img
+            src="./images/css.svg"
+            class="client__logo"
+            alt="Company 1"
+          />
+          <p>CSS</p>
+        </div>
+        <div class="changes">
+          <img
+            src="./images/redux.svg"
+            class="client__logo"
+            alt="Company 1"
+          />
+          <p>Redux</p>
+        </div>
+      </div>
+      <!-- second row -->
+      <div class="client__logos">
+        <div class="changes">
+          <img
+            src="./images/git-icon.svg"
+            class="client__logo"
+            alt="Company 1"
+          />
+          <p>Git</p>
+        </div>
+        <div class="changes">
+          <img
+            src="./images/mongo.svg"
+            class="client__logo"
+            alt="Company 1"
+          />
+
+          <p>Mongo DB</p>
+        </div>
+        <div class="changes">
+          <img
+            src="./images/react.svg"
+            class="client__logo"
+            alt="Company 1"
+          />
+          <p>React</p>
+        </div>
+        <div class="changes">
+          <img
+            src="./images/node.svg"
+            class="client__logo"
+            alt="Company 1"
+          />
+          <p>Nodejs</p>
+        </div>
+      </div>
+      <!-- third row -->
+      <div class="client__logos">
+         <div class="changes">
+            <img
+            src="./images/postman.svg"
+            class="client__logo"
+            alt="Company 1"
+            />
+           <p>Postman</p>
+          </div>
+
+          <div class="changes">
+            <img
+              src="./images/typescript.svg"
+              class="client__logo"
+              alt="Company 1"
+            />
+            <p>TypeScript</p>
+          </div>
+
+          <div class="changes">
+            <img
+              src="./images/github_img.png"
+              class="client__logo"
+              alt="Company 1"
+            />
+            <p>GitHub</p>
+          </div>
+          
+      </div>
+     
+  </div>
     </div>
-</section>
+  </section>
+</main>
 
 
 <section class="contact" id="contact">
@@ -263,8 +316,8 @@
 
     // Use a proxy
     GitHubCalendar(".calendar", "Anwar7411", {
-       proxy (username) {
-         return fetch(`https://your-proxy.com/github?user=${username}`)
+       proxy (Anwar7411) {
+         return fetch(`https://your-proxy.com/github?user=${Anwar7411}`)
        }
     }).then(r => r.text())
 </script>

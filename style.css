@@ -60,7 +60,6 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-
 .navbar{
     position: fixed;
     width: 100%;
@@ -288,87 +287,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-.skills .title::after{
-    content: "what i know";
-}
-.skills .skills-content .column{
-    width: calc(50% - 30px);
-}
-.skills .skills-content .left .text{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.skills .skills-content .left p{
-    text-align: justify;
-}
-.skills .skills-content .left a{
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-.skills .skills-content .left a:hover{
-    color: crimson;
-    background: none;
-}
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-}
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}
-.skills-content .right .html::before{
-    width: 93%;
-}
-.skills-content .right .css::before{
-    width: 80%;
-}
-.skills-content .right .js::before{
-    width: 85%;
-}
-.skills-content .right .React::before{
-    width: 90%;
-}
-.skills-content .right .MongoDB::before{
-    width: 80%;
-}
-.skills-content .right .ExpressJs::before{
-    width: 85%;
-}
-.skills-content .right .GitHub::before{
-    width: 80%;
-}
-.skills-content .right .NodeJs::before{
-    width: 85%;
-}
+
 
 .contact .title::after{
     content: "get in touch";
@@ -561,6 +480,12 @@ section .title::after{
         font-weight: 500;
     margin: 10px 0 7px 0;
     }
+
+    .client__logo {
+        height: 4.5rem;
+        max-width: 14rem;
+        margin-top: 20px;
+      }
     
 }
 
@@ -639,4 +564,57 @@ section .title::after{
     .Projects .serv-content .card .github:hover{
         background: #fc523e;
     }
+    .client__logo {
+        height: 2.5rem;
+        max-width: 11rem;
+        margin-top: 20px;
+      }
 }
+
+.client{
+    background-color: #111;
+}
+.client p{
+    color: #fff;
+    text-align: center;
+}
+#title{
+    color: #fff;
+}
+.client__logos {
+    padding: 4%;
+    padding-bottom: 0%;
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+    column-gap: 15%;
+    margin-bottom: -4%;
+    margin-top: 30px;
+  }
+  
+  .first:hover {
+    color: white;
+  }
+  
+  .client__logo {
+    height: 6.5rem;
+    max-width: 18rem;
+  }
+  
+  @media (max-width: 1240px) {
+    .client__logos {
+      padding: var(--gutter-normal);
+    }
+  
+    .client__logo:not(:last-of-type) {
+      margin-right: var(--gutter-medium);
+    }
+  }
+
+
+
+
+
+
+
