@@ -384,6 +384,16 @@ section .title::after{
   background: none;
 }
 
+.contactimg{
+    width: 60px;
+    height: 60px;
+}
+
+.rightcontact{
+display: flex;
+gap: 60px;
+}
+
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
