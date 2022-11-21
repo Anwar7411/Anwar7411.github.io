@@ -11,6 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet"  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 </head>
 <body>
    <nav class="navbar">
@@ -121,7 +123,23 @@
     </div>
 </section>
 
+<section class="githubstats">
+  <div class="max-width"> 
+    <h2 class="title" id="title">My GitHub Stats</h2>
+   <div>
+      <div>
+         <img height="185em" id="gitimg" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Anwar7411&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+     </div>
+      
+       <div class="calendar">
+    
+       </div>
+      
+  
+    </div>
+  </div>
 
+</section>
 
 
 
@@ -294,5 +312,18 @@
 
 
 <script src="script.js"></script>
+<script>
+  GitHubCalendar(".calendar", "Anwar7411");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "Anwar7411", { responsive: true });
+
+  // Use a proxy
+  GitHubCalendar(".calendar", "Anwar7411", {
+     proxy (Anwar7411) {
+       return fetch(`https://your-proxy.com/github?user=${Anwar7411}`)
+     }
+  }).then(r => r.text())
+</script>
 </body>
 </html>

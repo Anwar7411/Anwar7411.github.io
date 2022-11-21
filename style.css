@@ -202,15 +202,6 @@ section .title::after{
     color: crimson;
     background: none;
 }
-#calender{
-    margin: 20px;
-    background-color: #333;
-    text-align: center;
-    color: white;
-}
-#calender h1{
-    padding: 15px;
-}
 .eachCard{
     width: 90%;
     margin-top: 40px;
@@ -233,8 +224,6 @@ section .title::after{
     content: "what i cloned";
 }
 .Projects .serv-content .card{
-    /* width: calc(33% - 20px);
-    height: 500px; */
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -393,7 +382,20 @@ section .title::after{
 display: flex;
 gap: 60px;
 }
-
+.githubstats{
+    background-image:url("https://www.freeppt7.com/uploads/191106/1-191106101231211.jpg") 
+}
+#gitimg{
+    margin-left: 30%;
+    margin-bottom: 30px;
+    
+}
+.calendar{
+    color: #fff;
+}
+#contact{
+    background-color: rgb(175, 213, 213);
+}
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
@@ -485,6 +487,11 @@ gap: 60px;
     .github{
         width:35px
     }
+    #gitimg{
+        margin-left: 20%;
+        margin-bottom: 30px;
+        
+    }
     #heading{
         font-size: 25px;
         font-weight: 500;
@@ -496,8 +503,16 @@ gap: 60px;
         max-width: 14rem;
         margin-top: 20px;
       }
-    
+      .rightcontact{
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .contactimg{
+        width: 60px;
+        height: 60px;
+    }
 }
+    
 
 @media (max-width: 690px) {
     .max-width{
@@ -579,6 +594,20 @@ gap: 60px;
         max-width: 11rem;
         margin-top: 20px;
       }
+      #gitimg{
+        margin-left: 5%;
+        margin-bottom: 30px;
+        width: 300px;
+        
+    }
+    .rightcontact{
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .contactimg{
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .client{
