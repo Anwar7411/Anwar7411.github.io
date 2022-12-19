@@ -211,6 +211,9 @@ section .title::after{
     background: #111;
    
 }
+.tech_stack{
+  color: red;
+}
 .Projects .title::before,
 .teams .title::before{
     background: #fff;
@@ -221,7 +224,6 @@ section .title::after{
 .Projects .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i cloned";
 }
 .Projects .serv-content .card{
     background: #222;
@@ -231,9 +233,9 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.Projects .serv-content .card:hover{
+/* .Projects .serv-content .card:hover{
     background: #fc523e;
-}
+} */
 .projectimg{
     width: 450px;
     height: 350px;
@@ -249,7 +251,7 @@ section .title::after{
 }
 .card{
     display: flex;
-    width: 1200px;
+    width: 1100px;
     gap: 60px;
 }
 .card p{
@@ -563,7 +565,7 @@ gap: 60px;
     }
     #card{
         display: block;
-        width: 300px;
+        width: 290px;
         margin: auto;
     }
     .card{
@@ -586,9 +588,9 @@ gap: 60px;
         font-weight: 500;
     margin: 10px 0 7px 0;
     }
-    .Projects .serv-content .card .github:hover{
+    /* .Projects .serv-content .card .github:hover{
         background: #fc523e;
-    }
+    } */
     .client__logo {
         height: 2.5rem;
         max-width: 11rem;

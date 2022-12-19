@@ -71,6 +71,8 @@ $(document).ready(function(){
         }
     });
 });
+document.getElementById("pr6").addEventListener("click",()=>{window.open("https://astonishing-valkyrie-bbc329.netlify.app/", '_blank')})
+document.getElementById("pr66").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/melted-scale-2590", '_blank')})
 document.getElementById("pr1").addEventListener("click",()=>{window.open("https://wondrous-marigold-ae1bc8.netlify.app/home.html", '_blank')})
 document.getElementById("pr2").addEventListener("click",()=>{window.open("https://anwarbly7411-gmail-com-makes-great-sites-bafa1.netlify.app/Login", '_blank')})
 document.getElementById("pr3").addEventListener("click",()=>{window.open("https://benevolent-conkies-f99195.netlify.app/", '_blank')})
