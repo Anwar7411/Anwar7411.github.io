@@ -212,7 +212,7 @@ section .title::after{
    
 }
 .tech_stack{
-  color: red;
+  color: #fc523e;;
 }
 .Projects .title::before,
 .teams .title::before{
@@ -403,12 +403,18 @@ gap: 60px;
         height: 350px;
         width: 350px;
     }
+    .tech_stack{
+        color: #fc523e;;
+      }
 }
 
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
+    .tech_stack{
+        color: #fc523e;;
+      }
 }
 @media (max-width: 947px){
     .menu-btn{
@@ -513,6 +519,9 @@ gap: 60px;
         width: 60px;
         height: 60px;
     }
+    .tech_stack{
+        color: #fc523e;;
+      }
 }
     
 
@@ -532,6 +541,9 @@ gap: 60px;
     .Projects .serv-content .card{
         width: 100%;
     }
+    .tech_stack{
+        color: #fc523e;;
+      }
 }
 
 @media (max-width: 500px) {
@@ -588,9 +600,9 @@ gap: 60px;
         font-weight: 500;
     margin: 10px 0 7px 0;
     }
-    /* .Projects .serv-content .card .github:hover{
-        background: #fc523e;
-    } */
+    .tech_stack{
+        color: #fc523e;;
+      }
     .client__logo {
         height: 2.5rem;
         max-width: 11rem;
@@ -651,6 +663,9 @@ gap: 60px;
     .client__logo:not(:last-of-type) {
       margin-right: var(--gutter-medium);
     }
+    .tech_stack{
+        color: #fc523e;;
+      }
   }
 
 
