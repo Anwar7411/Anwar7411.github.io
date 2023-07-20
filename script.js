@@ -78,6 +78,6 @@ document.getElementById("pr2").addEventListener("click",()=>{window.open("https:
 document.getElementById("pr3").addEventListener("click",()=>{window.open("https://benevolent-conkies-f99195.netlify.app/", '_blank')})
 document.getElementById("pr11").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/direful-order-8525", '_blank')})
 document.getElementById("pr22").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/MI_Store", '_blank')})
-document.getElementById("pr33").addEventListener("click",()=>{window.open("https://github.com/Anwar7411/fun-trees-7619", '_blank')})
+document.getElementById("lmv").addEventListener("click",()=>{window.open("https://main.d1qh8hawmxmz6i.amplifyapp.com/", '_blank')})
 document.getElementById("emailsend").addEventListener("click",()=>{window.location.href=("mailto:bashaa7411@gmail.com")})
 
